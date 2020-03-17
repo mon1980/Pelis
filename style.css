@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 8px;
+}
+
+
+
+.peliculas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;     
+}
+
+.pelicula{
+text-align: center;
+width: 15em;
+
+}
+
+.title{
+font-size: 20px;
+text-align: center;
+
+}
+
+.navbar-brand{
+font-size: 30px !important;
+color: white !important;
+}
+
+body {
+    
+    background-color: gainsboro !important;
+}
+
+.btn-outline-success {
+    color: black !important;
+    background-color: yellow !important;
+    border-color: #28a745;
+}
+
+#paginacion{
+display: flex;
+justify-content: center;
+margin-top: 2px;
+}
+
+button{
+background-color: blue;
+color: white;
+height: 70px;
+margin-top: 20px;
+}
+
+#pagina{
+
+margin: 15px;
+margin-top: 10px;
+
+}
+
+/* Detalle de la pelicula */
+
+#contenedordetalle{
+display: flex;
+justify-content: center;
+background-color: #518DAC;
+color: white;
+width: 50%;
+font-size: 18px;
+}
+
+img{
+cursor: pointer;
+}
+
+.noimagen{
+padding-top: 116px;
+color: red;
+}
